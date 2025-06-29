@@ -75,14 +75,6 @@ public class ElementMethods {
 //        pause(500);
     }
 
-//    public boolean isElementDisplayed(By locator) {
-//        try {
-//            return getElement(locator).isDisplayed();
-//        } catch (Exception e) {
-//            return false;
-//        }
-//    }
-
     public boolean isElementDisplayed(By locator) {
         List<WebElement> elements = driver.findElements(locator);
         if (!elements.isEmpty()) {
