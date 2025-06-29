@@ -20,8 +20,6 @@ public class PropertyUtility {
         }
     }
 
-
-
     public static String get(String key) {
         return properties.getProperty(key);
     }
